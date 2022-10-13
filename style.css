@@ -7,13 +7,19 @@
     text-align: center;
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: flex-start;
+.nNadpis{
     text-align: center;
 }
-.cterec{
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: center;
+}
+.ctverec{
+    margin: 20px;
     height: 100px;
     width: 100px;
     border: solid 1px black;
