@@ -6,16 +6,19 @@
 .index{
     background-color: gray;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .news{
     background-color: black;
     color: white;
+    font-family: 'Oswald', sans-serif;
 }
 
 .about{
-    background-color: violet;
+    background-color: darksalmon;
     color: white;
+    font-family: 'Silkscreen', cursive;
 }
 
 .menu a{
@@ -27,6 +30,28 @@
 .menu a:hover{
     background-color: white;
     color: black;
+}
+
+.conteiner{
+    border: solid 2px black;
+    margin: 15px;
+}
+
+.conteiner .prvni{
+    border: solid 2px black;
+    margin: 15px;
+}
+.conteiner .druhy{
+    border: solid 2px black;
+    margin: 15px;
+}
+
+img{   
+    margin: 15px;
+}
+
+table{
+    margin: 15px;
 }
 
 .title{
@@ -47,11 +72,12 @@
     flex-wrap: wrap;
     column-gap: 10px;
     justify-content: center;
+    margin: 15px;
 }
 .ctverec{
     margin: 20px;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: solid 2px white;
     border-radius: 10px;
     background-color: gray;
@@ -67,43 +93,43 @@
 }
 
 .polozka-1{
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
     background-color: gray;
     border-radius: 15px;
     border: solid 2px black;
 }
 .polozka-2{
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
     background-color: chocolate;
     border-radius: 15px;
     border: solid 2px black;
 }
 .polozka-3{
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
     background-color: blue;
     border-radius: 15px;
     border: solid 2px black;
 }
 .polozka-4{
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
     background-color: brown;
     border-radius: 15px;
     border: solid 2px black;
 }
 .polozka-5{
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
     background-color: crimson;
     border-radius: 15px;
     border: solid 2px black;
 }
 .polozka-6{
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
     background-color: darkcyan;
     border-radius: 15px;
     border: solid 2px black;
