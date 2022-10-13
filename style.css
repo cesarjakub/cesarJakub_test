@@ -76,7 +76,7 @@
 .polozka-2{
     height: 100px;
     width: 100px;
-    background-color: yellow;
+    background-color: chocolate;
     border-radius: 15px;
     border: solid 2px black;
 }
@@ -107,4 +107,9 @@
     background-color: darkcyan;
     border-radius: 15px;
     border: solid 2px black;
+}
+
+.text{
+    text-align: center;
+    margin: 5px;
 }
