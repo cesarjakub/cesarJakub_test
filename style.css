@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.index{
+    background-color: gray;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.news{
+    background-color: black;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.about{
+    background-color: darksalmon;
+    color: white;
+    font-family: 'Silkscreen', cursive;
+}
+
+.menu a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    margin: 10px;
+}
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
+
+.conteiner{
+    border: solid 2px black;
+    margin: 15px;
+}
+
+.conteiner .prvni{
+    border: solid 2px black;
+    margin: 15px;
+}
+.conteiner .druhy{
+    border: solid 2px black;
+    margin: 15px;
+}
+
+img{   
+    margin: 15px;
+}
+
+table{
+    margin: 15px;
+}
+
+.title{
+    text-align: center;
+}
+
+.nNadpis{
+    text-align: center;
+}
+
+.aNadpis{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: center;
+    margin: 15px;
+}
+.ctverec{
+    margin: 20px;
+    height: 150px;
+    width: 150px;
+    border: solid 2px white;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    row-gap: 50px;
+    column-gap: 50px;
+    margin: 15px;
+}
+
+.polozka-1{
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+    border-radius: 15px;
+    border: solid 2px black;
+}
+.polozka-2{
+    height: 300px;
+    width: 300px;
+    background-color: chocolate;
+    border-radius: 15px;
+    border: solid 2px black;
+}
+.polozka-3{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    border-radius: 15px;
+    border: solid 2px black;
+}
+.polozka-4{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    border-radius: 15px;
+    border: solid 2px black;
+}
+.polozka-5{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+    border-radius: 15px;
+    border: solid 2px black;
+}
+.polozka-6{
+    height: 300px;
+    width: 300px;
+    background-color: darkcyan;
+    border-radius: 15px;
+    border: solid 2px black;
+}
+
+.text{
+    text-align: center;
+    margin: 5px;
+}
