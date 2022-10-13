@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: flex-start;
+    text-align: center;
+}
+.cterec{
+    height: 100px;
+    width: 100px;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: gray;
+}
